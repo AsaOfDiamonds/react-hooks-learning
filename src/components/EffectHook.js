@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const CounterTwo = () => {
+const EffectHook = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -17,4 +17,4 @@ const CounterTwo = () => {
   );
 }
 
-export default CounterTwo;
+export default EffectHook;
